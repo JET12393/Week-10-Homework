@@ -25,9 +25,10 @@
 
 <script type="text/javascript">
   var vis1 = "js/choropleth_map.json"
-  vegaEmbed('#scatter_plot', vis1).then(function(result) {
+  vegaEmbed('#choropleth_map.vg.json', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+
   var spec2 = "js/scatter_plot_interactive.vg.json";
   vegaEmbed('#scatter_plot', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
