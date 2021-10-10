@@ -1,3 +1,16 @@
+.page{
+    width: 10000px;    
+    background-color: white;   
+    margin: auto;
+    padding: 10px;
+    padding-top: 35px;
+ }
+ .vis-container{
+   width: 90%;
+ }
+
+
+
 #scatter_plot {
 	top:100px;
 	bottom: 100px; 
